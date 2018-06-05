@@ -1,6 +1,6 @@
 baseurl = "https://example.com/"
 defaultContentLanguage = "fi"
-title = "AT Special Transport"
+title = "Testsite"
 defaultContentLanguageInSubdir = "true"
 
 # Pagination
