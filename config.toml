@@ -1,0 +1,153 @@
+baseurl = "https://example.com/"
+defaultContentLanguage = "fi"
+title = "AT Special Transport"
+defaultContentLanguageInSubdir = "true"
+
+# Pagination
+paginate = 3
+paginatePath = "page"
+
+# Theme to use
+theme = ""
+
+# Copyright, appears in the footer
+copyright = "© 2018 Copyright Text"
+
+# Links format
+[permalinks]
+  post = "/:year/:month/:title/"
+
+
+
+# Suomi
+[languages.fi]
+  languageName = "FI"
+  weight = "1"
+
+  # Main menu
+  [[languages.fi.menu.main]]
+    url = ""
+    name = "KOTI"
+    weight = 1
+
+  # Main menu
+  [[languages.fi.menu.main]]
+    url = "/SERV/PALVELUT/"
+    name = "PALVELUT"
+    weight = 2
+
+ # Main menu
+  [[languages.fi.menu.main]]
+    url = "/COMPANY/"
+    name = "YRITYS"
+    weight = 3
+
+ # Main menu
+  [[languages.fi.menu.main]]
+    url = "/REF/REFERENSSIT/"
+    name = "REFERENSSIT"
+    weight = 4
+
+# Main menu
+  [[languages.fi.menu.main]]
+    url = "/SUBCONTRACTORS/"
+    name = "SOPIMUSLIIKENNÖITSIJÄT"
+    weight = 5
+
+# Main menu
+  [[languages.fi.menu.main]]
+    url = "/CONTACT/"
+    name = "YHTEYS"
+    weight = 6
+
+# Sverige
+[languages.se]
+  languageName = "SE"
+  weight = "2"
+
+  # Main menu
+  [[languages.se.menu.main]]
+    url = "/"
+    name = "HEM"
+    weight = 1
+
+  # Main menu
+  [[languages.se.menu.main]]
+    url = "/SERV/TJANSTER/"
+    name = "TJÄNSTER"
+    weight = 2
+
+ # Main menu
+  [[languages.se.menu.main]]
+    url = "/COMPANY/"
+    name = "FÖRETAG"
+    weight = 3
+
+ # Main menu
+  [[languages.se.menu.main]]
+    url = "/REF/REFERENSER/"
+    name = "REFERENSER"
+    weight = 4
+
+# Main menu
+  [[languages.se.menu.main]]
+    url = "/SUBCONTRACTORS/"
+    name = "AVTALSTRAFIKANTER"
+    weight = 5
+
+# Main menu
+  [[languages.se.menu.main]]
+    url = "/CONTACT/"
+    name = "KONTAKT"
+    weight = 6
+
+
+# English
+[languages.en]
+  languageName = "EN"
+   weight = "3"
+
+  # Main menu
+  [[languages.en.menu.main]]
+    url = "/"
+    name = "HOME"
+    weight = 1
+
+  # Main menu
+  [[languages.en.menu.main]]
+    url = "/SERV/SERVICES/"
+    name = "SERVICES"
+    weight = 2
+
+ # Main menu
+  [[languages.en.menu.main]]
+    url = "/COMPANY/"
+    name = "COMPANY"
+    weight = 3
+
+ # Main menu
+  [[languages.en.menu.main]]
+    url = "/REF/REFERENCES/"
+    name = "REFERENCES"
+    weight = 4
+
+# Main menu
+  [[languages.en.menu.main]]
+    url = "/SUBCONTRACTORS/"
+    name = "SUBCONTRACTORS"
+    weight = 5
+	
+# Main menu
+  [[languages.en.menu.main]]
+    url = "/CONTACT/"
+    name = "CONTACT"
+    weight = 6
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Other params
+[params]
+  # Display post summaries instead of content in list templates (default: true)
+  # truncate = false

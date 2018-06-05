@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang=".Language.LanguageName">
+  <head>
+    {{ partial "head" . }}
+  </head>
+  <body>
+    {{ block "header" . }}
+    	{{ partial "header" . }}
+	{{ end }}
+	
+	{{ block "hero-img" . }}
+		{{ partial "hero-img" . }}
+	{{ end }}
+	
+
+	{{ block "main-page" . }}
+		{{ partial "main-page" . }}
+	{{ end }}
+
+	{{ block "services" . }}
+		{{ partial "services" . }}
+	{{ end }}
+
+    {{ block "main" . }}
+      <!-- The part of the page that begins to differ between templates -->
+    {{ end }}
+
+    {{ block "footer" . }}
+      {{ partial "footer" . }}
+    {{ end }}
+  </body>
+</html>

@@ -1,0 +1,6 @@
+/public
+/themes
+node_modules/
+data/**/hash.*
+static/
+public/

@@ -1,0 +1,20 @@
+<div class="container extra-padding">
+	<div class="service-content">
+		<h2 class="text-center">
+			Palvelut
+		</h2>
+		{{ range .Site.Taxonomies.categories.service}}
+				<div class="service-box">
+					<img src="">
+					<div class="service-title">
+						<h3>{{.Title}}</h3>
+						<p>
+						{{.Summary}}
+						</p>
+						<a href="{{.URL}}" class="button">Lue lisää</a>
+					</div><!--End of service-title-->
+				</div><!--End of service-box-->
+		{{ end }}
+		
+	</div><!-- .service-content -->
+</div><!-- .container -->
